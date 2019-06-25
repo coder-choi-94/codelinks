@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../styles/reset.css"/>
+    <style>
+        .wrapper {
+            width : 80%;
+            height : 100%;
+            margin : 0 auto;
+            background-color : #efefef;
+        }
+
+        .form-box {
+            width : 500px;
+            margin : 0 auto;
+            background-color : #9a9a9a;
+            border-radius : 5px;
+
+            display : flex;
+            flex-direction : column;
+            align-items : center;
+        }
+
+        .title {
+            /* display : flex;
+            align-items : center;
+            justify-content : center; */
+            /* width : 100%; */
+            font-size : 1.5rem;
+            font-weight : 600;
+        }
+
+        .content {
+            font-weight : 500;
+        }
+
+        .text-box {
+            box-sizing : border-box;
+            position : relative;
+            width : 80%;
+            padding : 1rem;
+            border : 2px dashed pink;
+            border-radius : 5px;
+        }
+
+        .text {
+            border : none;
+            position : absolute;
+            top : 0; left : 0; bottom : 0; right : 0;
+            width : 100%;
+            padding : 5px 15px;
+        }
+        .text:focus {
+            outline : none;
+        }
+
+        button {
+            width : 50%;
+            padding : 1rem;
+            background-color : white;
+            color : gray;
+            border : none;
+            
+        }
+        button:focus {
+            outline : none;
+        }
+        button:hover {
+            background-color : #dedede;
+        }
+        button:active {
+            background-color : #ababab;
+            color : white;
+        }
+
+        .form-box>* {
+            margin : 10px;
+        }
+
+
+
+        .row {
+            display : flex;
+            align-items : center;
+            height : 100px;
+            width : 100%  
+        }
+        .row > .date {
+            width : 15%;
+        }
+
+        .row > .time-box {
+            display : flex;
+            align-items : center;
+            flex-wrap: wrap;
+            width : 100%;
+        }
+        .time-box > time {
+            width : 15%;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="row">
+            <div class="date">2019-05-12</div>
+            <div class="time-box">
+                <span class="time">09:00~</span>
+                <span class="time">09:00~</span>
+                <span class="time">09:00~</span>
+                <span class="time">09:00~</span>
+                <span class="time">09:00~</span>
+                <span class="time">09:00~</span>
+                <span class="time">09:00~</span>
+                <span class="time">09:00~</span>
+                <span class="time">09:00~</span>
+                <span class="time">09:00~</span>
+                <span class="time">09:00~</span>
+                <span class="time">09:00~</span>
+                <span class="time">09:00~</span>
+                <span class="time">09:00~</span>
+                <span class="time">09:00~</span>
+                <span class="time">09:00~</span>
+                <span class="time">09:00~</span>
+                <span class="time">09:00~</span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
