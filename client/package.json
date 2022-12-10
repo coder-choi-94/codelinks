@@ -10,7 +10,7 @@
     "body-parser": "^1.18.3",
     "clsx": "^1.0.4",
     "concurrently": "^4.1.0",
-    "express": "^4.16.4",
+    "express": "^4.17.3",
     "express-session": "^1.16.1",
     "http-proxy-middleware": "^0.19.1",
     "immutable": "^4.0.0-rc.12",
